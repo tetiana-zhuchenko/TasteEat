@@ -6,34 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     
 
-    <title>Document</title>
+    <title>TASTEEAT</title>
 </head>
+
 <body>
     <header>
-        <div>
-            <a href="tel:123456789">Call - 123 456 789</a>
-            <button>Reservation</button>
+        <div class="header-container">
+            <a href="tel:123456789" class="link-button">Call - 123 456 789</a>
+            <img src="./img/logo.svg" class="header-logo">
+            <button onclick="window.location.href='#';" class="heder-button">Reservation</button>
         </div>
-        <div>    
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Our Menu</li>
-                    <li>Pages</li>
-                    <li>Blog</li>
-                    <li>Contact Us</li>
-                </ul>
-            </nav>
-            <ul>
-                <li>inst</li>
-                <li>fb</li>
-                <li>tw</li>
-                <li>Pin</li>
-            </ul>
-         </div>
+
+        <div class="header-menu">    
+            <div  class="nav-container">
+                <nav>
+                    <ul class="header-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Menu</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <ul class="social-media-wrapper">
+                    <li><a href="#" class="insta-icon"><img src="./img/icons/insta-icon.svg"></a></li>
+                    <li><a href="#" class="fb-icon"><img src="./img/icons/fb-icon.svg"></a></li>
+                    <li><a href="#" class="tw-icon"><img src="./img/icons/tw-icon.svg"></a></li>
+                    <li><a href="#" class="pin-icon"><img src="./img/icons/pin-icon.svg"></a></li>
+                </ul>                
+            </div>
+            
+        </div>
     </header>
 
     
