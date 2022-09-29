@@ -9,6 +9,10 @@
     --secondary-font: "Cormorant Infant", serif;
 
   }
+html, body {
+  font-size: 10px;
+}
+
 
 /*Header*/
 header {
@@ -17,9 +21,9 @@ header {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.2px;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.02rem;
 }
 
 header a {
@@ -30,79 +34,103 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5rem;
 }
 
 .link-button {
-  border: 2px solid var(--primary);
-  padding: 20px 57px;
-  margin: 108px 40px;
-  
+  border: 0.2rem solid var(--primary);
+  padding: 2rem 5.7rem;
+    
 }
 
 .link-button:hover {
-  background: var(--primary);
+  background: var(--primary-dark);
+  transition: background 1s ease-in-out;
 }
 
 .link-button:active {
-  background: var(--primary-dark);
+  background: var(--primary-light);
+  transition: background 0.2s ease-in-out;
 }
 
 .header-logo {
   display: block;
-  max-width: 378px;
+  max-width: 37.8rem;
 }
 
 .heder-button {
   box-sizing: border-box;
   background: var(--primary);
-  padding: 20px 57px;
-  border: 2px solid var(--primary);
+  padding: 2rem 8.5rem;
+  border: 0.2rem solid var(--primary);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
   text-align: center;
-  letter-spacing: 0.44px;
+  letter-spacing: 0.044rem;
   color: var(--background);
-  margin-right: 40px;
   cursor: pointer;
 }
 
 .heder-button:hover {
   background: var(--primary-dark);
+  transition: background 1s ease-in-out;
+}
+
+.heder-button:active {
+  background: var(--primary-light);
+  transition: background 0.2s ease-in-out;
 }
 
 .header-menu {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid var(--primary-contrast);
+  align-items: center;
+  padding: 2.6rem 4.1rem 2.6rem 5.1rem;
+  border-top: 0.1rem solid var(--primary-contrast);
+  border-bottom: 0.1rem dashed var(--primary-contrast);
+  font-size: 2rem;
 }
 
 .header-nav li {
   display: inline-block;
-  padding-top: 26px;
-  padding-right: 20px;
-  padding-bottom: 26px;
-  padding-left: 41px;
+  padding-right: 6rem;
+  /*padding: 26px 20px 26px 41px;*/
+}
+
+.home-item {
+  color: var(--primary);
+}
+
+.header-nav li:nth-of-type(5) {
+  padding-left: 2.5rem;
 }
 
 .header-nav li a:hover {
-  color: var(--primary);
+  color: var(--primary-dark);
+  transition: background 1s ease-in-out;
+}
+
+.header-nav li a:active {
+  color: var(--primary-light);
+  transition: background 0.2s ease-in-out;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social-media-wrapper li {
   display: inline-block;
-  padding-top: 30px;
-  padding-right: 20px;
-}
-
-.social-media-wrapper {
-  padding-right: 30px;
+  margin-right: 2.05rem;
+ 
 }
 
 a img:hover {
   transform: scale(130%);
   transition: transform 0.3s ease-in-out;
-
 }
