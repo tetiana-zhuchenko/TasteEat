@@ -45,7 +45,7 @@ header a {
 
 .link-button:hover {
   background: var(--primary-dark);
-  transition: background 1s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 
 .link-button:active {
@@ -76,7 +76,7 @@ header a {
 
 .heder-button:hover {
   background: var(--primary-dark);
-  transition: background 1s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 
 .heder-button:active {
@@ -97,20 +97,19 @@ header a {
 .header-nav li {
   display: inline-block;
   padding-right: 6rem;
-  /*padding: 26px 20px 26px 41px;*/
+}
+
+.header-nav :last-child {
+  padding-right: 0;
 }
 
 .home-item {
   color: var(--primary);
 }
 
-.header-nav li:nth-of-type(5) {
-  padding-left: 2.5rem;
-}
-
 .header-nav li a:hover {
   color: var(--primary-dark);
-  transition: background 1s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 
 .header-nav li a:active {
@@ -126,8 +125,17 @@ header a {
 
 .social-media-wrapper li {
   display: inline-block;
-  margin-right: 2.05rem;
- 
+  padding-right: 2.1rem;
+}
+
+.social-media-wrapper :last-child {
+  padding-right: 0;
+}
+
+.center-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a img:hover {
