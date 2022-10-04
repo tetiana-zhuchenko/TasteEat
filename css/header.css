@@ -1,0 +1,92 @@
+
+/*Header*/
+header {
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1,5em;
+  letter-spacing: 0.009em;
+}
+
+header a {
+  color: var(--text-color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.7em;
+}
+
+.tel-button {
+  color: var(--text-color);
+}
+
+.header-logo {
+  display: block;
+  max-width: 17.2em;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1.2em 1.9em 1.2em 2.3em;
+  border-top: 0.09em solid var(--primary-contrast);
+  border-bottom: 0.1em dashed var(--primary-contrast);
+  
+}
+
+.header-nav li {
+  display: inline-block;
+  padding-right: 2.7em;
+}
+
+.header-nav :last-child {
+  padding-right: 0;
+}
+
+.home-item {
+  color: var(--primary);
+}
+
+.header-nav li a:hover {
+  color: var(--primary-dark);
+  transition: background 0.2s ease-in-out;
+}
+
+.header-nav li a:active {
+  color: var(--primary-light);
+  transition: background 0.2s ease-in-out;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-wrapper li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.social-media-wrapper :last-child {
+  padding-right: 0;
+}
+
+.center-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a img:hover {
+  transform: scale(130%);
+  transition: transform 0.3s ease-in-out;
+}
