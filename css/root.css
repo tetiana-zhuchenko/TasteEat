@@ -65,3 +65,14 @@ html, body {
   background: var(--primary-light);
   transition: background 0.2s ease-in-out;
 }
+
+/* Animation for navigation menu */
+li a:hover {
+  color: var(--primary-dark);
+  transition: background 0.2s ease-in-out;
+}
+
+li a:active {
+  color: var(--primary-light);
+  transition: background 0.2s ease-in-out;
+}

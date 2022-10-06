@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -21,8 +22,11 @@
 <body>
     <header>
         <div class="header-container">
+            <button class="mobile-nav">
+                <span class="mobile-nav-icon"></span>
+            </button>
             <a href="tel:123456789" class="bordered-button tel-button">Call - 123 456 789</a>
-            <img src="./img/logo.svg" alt="The Tasteat logo" class="header-logo">
+            <img src="./img/logo.svg" alt="the tasteat logo" class="header-logo">
             <a href='#' class="solid-button">Reservation</a>
         </div>
 
@@ -44,11 +48,35 @@
                     <li><a href="#" class="fb-icon center-icons"><img src="./img/icons/fb-icon.svg" alt="Facebook"></a></li>
                     <li><a href="#" class="tw-icon center-icons"><img src="./img/icons/tw-icon.svg" alt="Twitter"></a></li>
                     <li><a href="#" class="pin-icon center-icons"><img src="./img/icons/pin-icon.svg" alt="Pinterest"></a></li>
-                </ul>                
-            
+                </ul>
         </div>
+        
+        <div class="mobile-nav-menu">
+            <nav class="mobile-nav-container">
+                <button class="close-button">X</button>
+
+                <ul class="mobile-header-nav">
+                    <li><a href="#" class="home-item">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Menu</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+            <ul class="mobile-social-media-wrapper">
+                <li><a href="#" class="insta-icon center-icons"><img src="./img/icons/insta-icon.svg" alt="Instagram"></a></li>
+                <li><a href="#" class="fb-icon center-icons"><img src="./img/icons/fb-icon.svg" alt="Facebook"></a></li>
+                <li><a href="#" class="tw-icon center-icons"><img src="./img/icons/tw-icon.svg" alt="Twitter"></a></li>
+                <li><a href="#" class="pin-icon center-icons"><img src="./img/icons/pin-icon.svg" alt="Pinterest"></a></li>
+            </ul>
+        </div>
+
+        
+        
     </header>
 
-    
+<script src="/js/main.js"></script>
 </body>
 </html>
