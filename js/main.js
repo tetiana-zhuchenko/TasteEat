@@ -6,6 +6,8 @@ const closeNavMenuButton = document.querySelector('.close-button');
 mobileNavButton.addEventListener('click', function (event) {
     event.stopPropagation();
     mobileNavMenu.classList.toggle('mobile-nav-menu-active');
+    mobileNavMenu.classList.toggle('mobile-nav-menu::after');
+    
 
 });
 

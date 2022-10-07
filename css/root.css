@@ -42,6 +42,30 @@ html, body {
   transition: background 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 1100px) {
+  .solid-button {
+    font-size: 1.8rem; 
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .solid-button {
+    font-size: 1.5rem; 
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .solid-button {
+    font-size: 1.1rem; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .solid-button {
+      padding: 0.9em 1.7em;
+  }
+}
+
 .bordered-button {
   border: 0.1em solid var(--primary);
   padding: 0.9em 2.6em;
@@ -66,13 +90,31 @@ html, body {
   transition: background 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 1100px) {
+  .bordered-button {
+    font-size: 1.8rem; 
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .bordered-button {
+    font-size: 1.5rem; 
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .bordered-button {
+    font-size: 1.1rem; 
+  }
+}
+
 /* Animation for navigation menu */
 li a:hover {
   color: var(--primary-dark);
-  transition: background 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 li a:active {
   color: var(--primary-light);
-  transition: background 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }

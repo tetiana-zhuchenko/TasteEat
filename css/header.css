@@ -11,6 +11,24 @@ header {
   letter-spacing: 0.009em;
 }
 
+@media screen and (max-width: 1100px) {
+  header {
+      font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header {
+      font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  header {
+      font-size: 1.1rem;
+  }
+}
+
 header a {
   color: var(--text-color);
 }
@@ -22,6 +40,19 @@ header a {
   padding: 2.7em;
 }
 
+@media screen and (max-width: 600px) {
+  .header-container {
+      padding: 1.2em;
+      border-bottom: 0.1rem solid var(--primary-contrast);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-container {
+      padding: 0.3em;
+  }
+}
+
 /* Mobile navigation button */
 .mobile-nav {
   display: none;
@@ -30,6 +61,12 @@ header a {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-nav {
+      display: block;
+  }
 }
 
 .mobile-nav-icon {
@@ -79,9 +116,21 @@ header a {
   color: var(--text-color);
 }
 
+@media screen and (max-width: 600px) {
+  .header-container .tel-button {
+    display: none;
+  }
+}
+
 .header-logo {
   display: block;
   max-width: 17.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .header-logo {
+      max-width: 14em;
+  }
 }
 
 .header-menu {
@@ -92,7 +141,30 @@ header a {
   padding: 1.2em 1.9em 1.2em 2.3em;
   border-top: 0.09em solid var(--primary-contrast);
   border-bottom: 0.1em dashed var(--primary-contrast);
-  
+}
+
+@media screen and (max-width: 1100px) {
+  .header-menu {
+      font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header-menu {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .header-menu {
+      font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-menu {
+      display: none;
+  }
 }
 
 .header-nav li {
@@ -129,6 +201,12 @@ header a {
   align-items: center;
 }
 
+@media screen and (max-width: 960px) {
+  .center-icons img {
+      max-width: 75%;
+  }
+}
+
 a img:hover {
   transform: scale(130%);
   transition: transform 0.3s ease-in-out;
@@ -136,14 +214,30 @@ a img:hover {
 
 /* Mobile navigation menu */
 .mobile-nav-menu {
-  display: none;
+  display: flex;
   position: fixed;
+  left: -20rem;
+  transition: left 0.2s ease-in-out;
   width: 20rem;
   height: 100%;
   background-color: var(--background);
   flex-direction: column;
   justify-content: flex-start;
-  box-shadow: 20rem 0rem 0rem 20rem rgb(142 142 142 / 20%);
+}
+
+.mobile-nav-menu::after {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  position: absolute
+  
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-nav-menu-active {
+    left: 0rem;
+  }
 }
 
 .mobile-header-nav {
@@ -185,3 +279,14 @@ a img:hover {
   color: var(--primary-light);
   transition: background 0.2s ease-in-out;
 }
+
+.mobile-nav-menu::after {
+  display: none;
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  position: absolute
+
+}
+
