@@ -1,0 +1,116 @@
+
+.background {
+    width: 8.3rem;
+    height: 8.3rem;
+    border-radius: 50%;
+    background-color: var(--background);
+    position: relative;
+}
+
+@media screen and (max-width: 960px) {
+    .background {
+        width: 7.3rem;
+        height: 7.3rem; 
+        margin-bottom: 1em;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .background {
+        width: 5.3rem;
+        height: 5.3rem; 
+        margin-bottom: 1em;
+    }
+  }
+
+.background img {
+    width: 5.2rem;
+    height: 5.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+    .background img {
+        width: 4.3rem;
+        height: 4.3rem; 
+    }
+  }
+
+.contacts {
+    background-color: var(--secondary-background);
+    display: flex;
+    justify-content: space-between;
+    padding: 5.7em 2.7em 3.8em 2.7em;
+    color: var(--secondary-text-color);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5em;
+    letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 1200px) {
+    .contacts {
+        font-size: 1.8rem;
+    }
+  }
+
+@media screen and (max-width: 960px) {
+    .contacts {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2em;
+    }
+  }
+
+@media screen and (max-width: 786px) {
+    .contacts {
+        font-size: 1.2rem;
+    }
+  }
+
+.contacts-positioning {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contacts-title {
+    padding-left: 20px;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+    color: var(--background);
+}
+
+@media screen and (max-width: 1200px) {
+    .contacts-title {
+        font-size: 2.8rem;
+    }
+  }
+
+@media screen and (max-width: 1100px) {
+    .contacts-title {
+        font-size: 2.7rem;
+    }
+  }
+  
+@media screen and (max-width: 960px) {
+    .contacts-title {
+        font-size: 1.5rem;
+    }
+  }
+
+.contacts-text {
+    padding-left: 1em;
+    color: var(--secondary-text-color);
+}
