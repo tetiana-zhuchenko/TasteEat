@@ -1,0 +1,110 @@
+.story-section-container {
+    display: flex;
+    gap: 2.3em;
+    background-color: var(--secondary-background);
+    padding: 5.7em 2.7em 3.8em 2.7em;
+    color: var(--secondary-text-color);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5em;
+    letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 1200px) {
+    .story-section-container {
+        font-size: 1.8rem;
+    }
+  }
+
+@media screen and (max-width: 960px) {
+    .story-section-container {
+        font-size: 1.5rem;
+        padding: 2.7em 2.7em 2.8em 2.7em;
+    }
+  }
+
+@media screen and (max-width: 786px) {
+    .story-section-container {
+        font-size: 1.2rem;
+        padding: 1.7em 1.7em 1.8em 1.7em;
+    }
+  }
+
+@media screen and (max-width: 627px) {
+    .story-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+.story-section-title {
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    line-height: 1.4em;
+    letter-spacing: 0.005em;
+    color: var(--background);
+    padding-bottom: 0.4em;
+}
+
+@media screen and (max-width: 1200px) {
+    .story-section-title {
+        font-size: 3.6rem;
+    }
+  }
+
+@media screen and (max-width: 960px) {
+    .story-section-title {
+        font-size: 3.2rem;
+        
+    }
+  }
+
+@media screen and (max-width: 786px) {
+    .story-section-title {
+        font-size: 2.8rem;
+    }
+  }
+
+@media screen and (max-width: 635px) {
+    .story-section-title {
+        font-size: 2rem;
+    }
+  }
+
+.plan-wrapper {
+    display: flex;
+    gap: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 1em;
+}
+
+.signature {
+    padding-top: 1em;
+    max-width: 10em;
+    max-height: 6.5em;
+}
+
+@media screen and (max-width: 1180px) {
+    .signature {
+        max-width: 20%;
+    }
+  }
+
+.restaurant-hall {
+    max-width: 37em;
+    max-height: 25.5em;
+}
+
+@media screen and (max-width: 1180px) {
+    .restaurant-hall {
+        max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 627px) {
+    .restaurant-hall {
+        max-width: 100%;
+    }
+  }
