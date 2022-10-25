@@ -23,7 +23,7 @@ header {
   }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 800px) {
   header {
       font-size: 1.1rem;
   }
@@ -155,7 +155,7 @@ header a {
   }
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 800px) {
   .header-menu {
       font-size: 1.1rem;
   }
@@ -207,7 +207,7 @@ header a {
   }
 }
 
-a img:hover {
+.mobile-social-media-wrapper a img:hover {
   transform: scale(130%);
   transition: transform 0.3s ease-in-out;
 }
@@ -237,6 +237,8 @@ a img:hover {
 @media screen and (max-width: 600px) {
   .mobile-nav-menu-active {
     left: 0rem;
+    z-index: 2;
+
   }
 }
 

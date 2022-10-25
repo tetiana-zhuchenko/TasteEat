@@ -23,7 +23,7 @@
     }
   }
   
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 800px) {
     .welcome-section {
         font-size: 1.1rem;
     }
@@ -41,7 +41,7 @@
     padding-bottom: 8.6em;
 }
 
-@media screen and (max-width: 1398px) {
+@media screen and (max-width: 1400px) {
     .text-container {
         padding-top: 10em;
         padding-bottom: 7.6em;
@@ -55,7 +55,7 @@
     }
   }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1000px) {
     .text-container {
         padding-top: 8em;
         padding-bottom: 5.6em;
@@ -68,7 +68,7 @@
     }
   }
   
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
     .text-container {
         padding-top: 5em;
         padding-bottom: 2.6em;
@@ -115,7 +115,7 @@
     }
   }
   
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 800px) {
     .title {
         font-size: 5rem;
     }
