@@ -6,14 +6,15 @@ const closeNavMenuButton = document.querySelector('.close-button');
 mobileNavButton.addEventListener('click', function (event) {
     event.stopPropagation();
     mobileNavMenu.classList.toggle('mobile-nav-menu-active');
-    mobileNavMenu.classList.toggle('mobile-nav-menu::after');
-    
+    //document.body.style.backgroundColor = 'salmon'; // add background
 
+   
 });
 
 // Clicking on close button
 closeNavMenuButton.addEventListener('click', function () {
     mobileNavMenu.classList.toggle('mobile-nav-menu-active');
+    //document.body.style.backgroundColor = 'transparent'; //remove background
 
 });
 
@@ -23,6 +24,7 @@ window.addEventListener('click', function () {
 
     if (mobileNavMenu.classList.contains('mobile-nav-menu-active')) {
         mobileNavMenu.classList.toggle('mobile-nav-menu-active');
+        //document.body.style.backgroundColor = 'transparent'; //remove background
     }
 });
 
