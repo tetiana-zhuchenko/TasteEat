@@ -1,12 +1,10 @@
 :root {
     --background: #292E36;
-    --secondary-background: #FFF8F5;
     --primary: #E1B168;
     --primary-dark: #e19d68;
     --primary-light: #e1c568;
     --primary-contrast: #5C6168;
     --text-color: #fff;
-    --secondary-text-color: #555555;
     --main-font: "Josefin Sans", sans-serif;
     --secondary-font: "Cormorant Infant", serif;
 
@@ -15,89 +13,23 @@ html, body {
   font-size: 10px;
 }
 
-@media screen and (max-width: 1100px) {
-  html, body {
-    font-size: 9.5px; 
-  }
-}
-
-@media screen and (max-width: 960px) {
-  html, body {
-    font-size: 9px; 
-  }
-}
-
-@media screen and (max-width: 800px) {
-  html, body {
-    font-size: 8.5px; 
-  }
-}
-
-@media screen and (max-width: 700px) {
-  html, body {
-    font-size: 8px; 
-  }
-}
-
-@media screen and (max-width: 600px) {
-  html, body {
-    font-size: 7.5px; 
-  }
-}
-
-@media screen and (max-width: 400px) {
-  html, body {
-    font-size: 7px; 
-  }
-}
-
 .container {
-  padding: 0 4rem;
+  padding: 0 2.7em;
 }
 
 .solid-button {
   background: var(--primary);
-  padding: 2rem 8.6rem;
-  border: 0.2rem solid var(--primary);
+  padding: 0.9em 3.9em;
+  border: 0.1em solid var(--primary);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
   font-size: 2.2rem;
-  line-height: 3.3rem;
+  line-height: 1.5em;
   text-align: center;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.02em;
   color: var(--background);
   cursor: pointer;
-}
-
-@media screen and (max-width: 1100px) {
-  .solid-button {
-    font-size: 2rem; 
-    line-height: 3.1rem;
-    padding: 1.6rem 7rem;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .solid-button {
-    font-size: 1.7rem; 
-    line-height: 2.9rem;
-    padding: 1.2rem 5.5rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .solid-button {
-    font-size: 1.5rem; 
-    line-height: 2.6rem;
-    padding: 1rem 4rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .solid-button {
-      padding: 1rem 1.7rem;
-  }
 }
 
 .solid-button:hover {
@@ -110,59 +42,42 @@ html, body {
   transition: background 0.2s ease-in-out;
 }
 
-
-
-.bordered-button {
-  border: 0.2rem solid var(--primary);
-  padding: 2rem 5.7rem;
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.2rem;
-  line-height: 3.3rem;
-  text-align: center;
-  letter-spacing: 0.02rem;
-  color: var(--primary);
-  cursor: pointer;
-  display: block;
-}
-
 @media screen and (max-width: 1100px) {
-  .bordered-button {
-    font-size: 2rem; 
-    line-height: 3rem;
-    padding: 1.6rem 7rem;
+  .solid-button {
+    font-size: 1.8rem; 
   }
 }
 
 @media screen and (max-width: 960px) {
-  .bordered-button {
-    font-size: 1.7rem; 
-    line-height: 2.7rem;
-    padding: 1.2rem 5.5rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .bordered-button {
+  .solid-button {
     font-size: 1.5rem; 
-    line-height: 2.3rem;
-    padding: 1rem 4.5rem;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .bordered-button{
-      font-size: 1.3rem; 
-      line-height: 2rem;
-      padding: 1rem 3.5rem;
+@media screen and (max-width: 786px) {
+  .solid-button {
+    font-size: 1.1rem; 
   }
 }
 
 @media screen and (max-width: 600px) {
-  .bordered-button{
-      padding: 1rem 3.5rem;
+  .solid-button {
+      padding: 0.9em 1.7em;
   }
+}
+
+.bordered-button {
+  border: 0.1em solid var(--primary);
+  padding: 0.9em 2.6em;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.5em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary);
+  cursor: pointer;
 }
 
 .bordered-button:hover {
@@ -173,6 +88,24 @@ html, body {
 .bordered-button:active {
   background: var(--primary-light);
   transition: background 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1100px) {
+  .bordered-button {
+    font-size: 1.8rem; 
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .bordered-button {
+    font-size: 1.5rem; 
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .bordered-button {
+    font-size: 1.1rem; 
+  }
 }
 
 /* Animation for navigation menu */
