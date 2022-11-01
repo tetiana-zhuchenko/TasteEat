@@ -1,15 +1,15 @@
 .story-section-container {
     display: flex;
-    gap: 2.3em;
+    gap: 4.6rem;
     background-color: var(--secondary-background);
-    padding: 5.7em 2.7em 3.8em 2.7em;
+    padding: 8.4rem 5.3rem 12.5rem 4rem;
     color: var(--secondary-text-color);
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
-    line-height: 1.5em;
-    letter-spacing: 0.01em;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -20,20 +20,13 @@
 
 @media screen and (max-width: 960px) {
     .story-section-container {
-        font-size: 1.5rem;
-        padding: 2.7em 2.7em 2.8em 2.7em;
+        padding: 5.4rem 5.4rem 7.6rem 5.4rem;
     }
   }
 
 @media screen and (max-width: 800px) {
     .story-section-container {
-        font-size: 1.2rem;
-        padding: 1.7em 1.7em 1.8em 1.7em;
-    }
-  }
-
-@media screen and (max-width: 630px) {
-    .story-section-container {
+        padding: 4.4rem 4.4rem 6.6rem 4.4rem;
         flex-direction: column;
         align-items: center;
     }
@@ -42,48 +35,31 @@
 .story-section-title {
     font-family: var(--secondary-font);
     font-size: 4rem;
-    line-height: 1.4em;
-    letter-spacing: 0.005em;
+    line-height: 1.4;
+    letter-spacing: 0.02rem;
     color: var(--background);
-    padding-bottom: 0.4em;
+    padding-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 1200px) {
-    .story-section-title {
-        font-size: 3.6rem;
-    }
-  }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 900px) {
     .story-section-title {
-        font-size: 3.2rem;
+        line-height: 1.2;
         
-    }
-  }
-
-@media screen and (max-width: 800px) {
-    .story-section-title {
-        font-size: 2.8rem;
-    }
-  }
-
-@media screen and (max-width: 650px) {
-    .story-section-title {
-        font-size: 2rem;
     }
   }
 
 .plan-wrapper {
     display: flex;
-    gap: 1em;
-    padding-top: 1.3em;
-    padding-bottom: 1em;
+    gap: 2rem;
+    padding-top: 2.6rem;
+    padding-bottom: 2rem;
 }
 
 .signature {
-    padding-top: 1em;
-    max-width: 10em;
-    max-height: 6.5em;
+    padding-top: 2rem;
+    max-width: 20rem;
+    max-height: 13rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -94,19 +70,27 @@
 
 .restaurant-hall {
     width: 100%;
-    height: 25.5em;
+    height: 51rem;
     object-fit: cover;
     object-position: bottom;
 }
 
 @media screen and (max-width: 1180px) {
     .restaurant-hall {
-        height: 20em;
+        height: 40rem;
     }
   }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
     .restaurant-hall {
-        max-width: 100%;
+        height: 35rem;
     }
   }
+
+@media screen and (max-width: 800px) {
+    .restaurant-hall {
+      max-width: 100%;
+      height: 51rem;
+    }
+  }
+
