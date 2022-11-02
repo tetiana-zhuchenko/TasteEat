@@ -29,6 +29,15 @@
         padding: 4.4rem 4.4rem 6.6rem 4.4rem;
         flex-direction: column;
         align-items: center;
+        font-size: 1.5rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .story-section-container {
+        font-size: 1.3rem;
+        padding: 2rem;
+        gap: 2rem;
     }
   }
 
@@ -44,8 +53,26 @@
 
 @media screen and (max-width: 900px) {
     .story-section-title {
-        line-height: 1.2;
-        
+      line-height: 1.2;
+      font-size: 3.6rem;  
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .story-section-title {
+      font-size: 3.2rem;  
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .story-section-title {
+      font-size: 2.8rem;  
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .story-section-title {
+      font-size: 2.5rem;  
     }
   }
 
@@ -81,16 +108,22 @@
     }
   }
 
+@media screen and (max-width: 1000px) {
+    .restaurant-hall {
+        height: 32rem;
+    }
+  }
+
 @media screen and (max-width: 900px) {
     .restaurant-hall {
-        height: 35rem;
+        height: 30rem;
     }
   }
 
 @media screen and (max-width: 800px) {
     .restaurant-hall {
       max-width: 100%;
-      height: 51rem;
+      height: 30rem;
     }
   }
 
