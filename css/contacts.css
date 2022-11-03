@@ -76,6 +76,14 @@
     .contacts {
         flex-direction: column;
         align-items: flex-start;
+        font-size: 1.5rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .contacts {
+        font-size: 1.3rem;
+        padding: 2rem;
     }
   }
 
@@ -87,7 +95,7 @@
 }
 
 .contacts-title {
-    padding-left: 20px;
+    padding-left: 2rem;
     font-family: 'Cormorant Infant';
     font-style: normal;
     font-weight: 400;
@@ -106,6 +114,18 @@
 @media screen and (max-width: 1100px) {
     .contacts-title {
         font-size: 2.7rem;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .contacts-title {
+        font-size: 2.3rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .contacts-title {
+        font-size: 1.8rem;
     }
   }
   
